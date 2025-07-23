@@ -1,0 +1,16 @@
+# Ignore virtual environment
+.venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite DB (optional to ignore)
+project_data.db
+
+# Bokeh output (optional to ignore)
+results_visualization.html
+
+# Mac system files
+.DS_Store
