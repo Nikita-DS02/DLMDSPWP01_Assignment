@@ -1,5 +1,5 @@
 # DLMDSPWP01 Assignment - Function Selection Using Python
-<<<<<<< HEAD
+
 
 # 📈 Optimizing Function Selection Using Python  
 ## An Application of Least Squares Method for Ideal Function Approximation
@@ -18,22 +18,25 @@ This project demonstrates the use of the **Least Squares Method** to select the 
 
 ### 📁 Project Structure
 
+<pre>
 DLMDSPWP01_Assignment/
 ├── data/
-│ ├── train.csv
-│ ├── ideal.csv
-│ └── test.csv
+│   ├── train.csv
+│   ├── ideal.csv
+│   └── test.csv
+├── results/
+│   └── results_visualization.html
 ├── src/
-│ ├── database.py
-│ ├── function_selector.py
-│ ├── test_matcher.py
-│ ├── visualizer.py
-│ └── main.py
-├── results_visualization.html
-├── project_data.db
+│   ├── database.py
+│   ├── main.py
+│   ├── function_selector.py
+│   ├── test_matcher.py
+│   └── visualizer.py
 ├── .gitignore
+├── project_data.db
 ├── README.md
 └── requirements.txt
+</pre>
 
 
 ---
@@ -44,7 +47,7 @@ DLMDSPWP01_Assignment/
 - **pandas** for data manipulation
 - **SQLAlchemy** for database interaction
 - **Bokeh** for interactive visualization
-- **pytest** (optional) for unit testing
+- **pytest** for unit testing
 - **Git** + **GitHub** for version control
 
 ---
@@ -77,14 +80,14 @@ DLMDSPWP01_Assignment/
 ---
 
 ### ✅ Features Implemented
-🗂️ SQLite DB creation and multi-table storage
-📉 Ideal function selection via least squares error minimization
-📊 Visual mapping of training vs. ideal vs. test data
-✅ Test point assignment with √2 deviation threshold
-⚙️ Object-oriented modular design with inheritance and exception handling
-🧪 Unit test-ready structure
-💡 Well-commented code and docstrings
-🔁 Real-world Git workflow with pull request and branch management
+- 🗂️ SQLite DB creation and multi-table storage
+- 📉 Ideal function selection via least squares error minimization
+- 📊 Visual mapping of training vs. ideal vs. test data
+- ✅ Test point assignment with √2 deviation threshold
+- ⚙️ Object-oriented modular design with inheritance and exception handling
+- 🧪 Unit test-ready structure
+- 💡 Well-commented code and docstrings
+- 🔁 Real-world Git workflow with pull request and branch management
 
 ---
 
@@ -96,4 +99,4 @@ DLMDSPWP01_Assignment/
 ### 📜 License
 This project is submitted as part of the IU assignment DLMDSPWP01 and is not intended for commercial use.
 =======
->>>>>>> 9556a3a (Initial commit with folder structure and CSV files)
+
