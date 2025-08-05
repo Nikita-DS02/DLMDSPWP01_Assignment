@@ -78,6 +78,15 @@ DLMDSPWP01_Assignment/
 
 ---
 
+### Installation
+
+To install all dependencies required for this project:
+
+```bash
+pip install -r requirements.txt
+
+---
+
 ### ✅ Features Implemented
 <pre>
 🗂️ SQLite DB creation and multi-table storage
