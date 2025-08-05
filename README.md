@@ -1,4 +1,5 @@
 # DLMDSPWP01 Assignment - Function Selection Using Python
+<<<<<<< HEAD
 
 # 📈 Optimizing Function Selection Using Python  
 ## An Application of Least Squares Method for Ideal Function Approximation
@@ -94,3 +95,5 @@ DLMDSPWP01_Assignment/
 
 ### 📜 License
 This project is submitted as part of the IU assignment DLMDSPWP01 and is not intended for commercial use.
+=======
+>>>>>>> 9556a3a (Initial commit with folder structure and CSV files)
