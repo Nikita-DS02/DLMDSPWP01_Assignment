@@ -78,16 +78,8 @@ DLMDSPWP01_Assignment/
 
 ---
 
-### Installation
-
-To install all dependencies required for this project:
-
-```bash
-pip install -r requirements.txt
-
----
-
 ### ✅ Features Implemented
+
 <pre>
 🗂️ SQLite DB creation and multi-table storage
 📉 Ideal function selection via least squares error minimization
@@ -98,6 +90,7 @@ pip install -r requirements.txt
 💡 Well-commented code and docstrings
 🔁 Real-world Git workflow with pull request and branch management
 </pre>
+
 ---
 
 ### 🧠 What I Learned
@@ -107,3 +100,12 @@ pip install -r requirements.txt
 
 ### 📜 License
 This project is submitted as part of the IU assignment DLMDSPWP01 and is not intended for commercial use.
+
+---
+
+### Installation
+
+To install all dependencies required for this project:
+
+```bash
+pip install -r requirements.txt
