@@ -79,6 +79,7 @@ DLMDSPWP01_Assignment/
 ---
 
 ### ✅ Features Implemented
+<pre>
 🗂️ SQLite DB creation and multi-table storage
 📉 Ideal function selection via least squares error minimization
 📊 Visual mapping of training vs. ideal vs. test data
@@ -87,7 +88,7 @@ DLMDSPWP01_Assignment/
 🧪 Unit test-ready structure
 💡 Well-commented code and docstrings
 🔁 Real-world Git workflow with pull request and branch management
-
+</pre>
 ---
 
 ### 🧠 What I Learned
