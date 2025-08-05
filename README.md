@@ -55,21 +55,21 @@ DLMDSPWP01_Assignment/
    git clone -b develop https://github.com/Nikita-DS02/DLMDSPWP01_Assignment.git
    cd DLMDSPWP01_Assignment
 
-2. Create a virtual environment
-python3 -m venv .venv
-source .venv/bin/activate
+2. **Create a virtual environment**
+    python3 -m venv .venv
+    source .venv/bin/activate
 
-3. Install dependencies
-pip install -r requirements.txt
+3. **Install dependencies**
+    pip install -r requirements.txt
 
-4. Run the project
-python src/main.py
+4. **Run the project**  
+    python src/main.py
 
-5. View the visualization
-Open results_visualization.html in your browser
+5. **View the visualization**
+    Open results_visualization.html in your browser
 
 
-Features Implemented
+###✅ Features Implemented
 🗂️ SQLite DB creation and multi-table storage
 📉 Ideal function selection via least squares error minimization
 📊 Visual mapping of training vs. ideal vs. test data
@@ -79,8 +79,8 @@ Features Implemented
 💡 Well-commented code and docstrings
 🔁 Real-world Git workflow with pull request and branch management
 
-What I Learned
+###🧠 What I Learned
 “This project gave me hands-on experience with data approximation, modular Python coding, version control, and collaborative Git workflows. It strengthened my problem-solving mindset and helped me understand how theory translates into practical solutions.”
 
-License
+###📜 License
 This project is submitted as part of the IU assignment DLMDSPWP01 and is not intended for commercial use.
