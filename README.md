@@ -20,24 +20,25 @@ This project demonstrates the use of the **Least Squares Method** to select the 
 
 <pre>
 DLMDSPWP01_Assignment/
-├── data/
+├── src/                       # Core implementation
+│   ├── database.py            # Handles SQLite interactions
+│   ├── function_selector.py   # Ideal function selection (LSE)
+│   ├── test_matcher.py        # Matching test data with √2 rule
+│   ├── visualizer.py          # Bokeh-based HTML visualizations
+│   └── main.py                # Entry point to run full pipeline
+├── tests/                     # All unit tests (unittest framework)
+│   ├── test_database.py
+│   ├── test_function_selector.py
+│   └── test_matcher.py
+├── Data/                      # Raw CSV data files
 │   ├── train.csv
 │   ├── ideal.csv
 │   └── test.csv
-├── results/
-│   └── results_visualization.html
-├── src/
-│   ├── database.py
-│   ├── main.py
-│   ├── function_selector.py
-│   ├── test_matcher.py
-│   └── visualizer.py
-├── .gitignore
-├── project_data.db
-├── README.md
-└── requirements.txt
+├── project_data.db            # SQLite database used for the project
+├── results_visualization.html # Final plotted output (Bokeh)
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project overview and setup
 </pre>
-
 
 ---
 
@@ -47,8 +48,24 @@ DLMDSPWP01_Assignment/
 - **pandas** for data manipulation
 - **SQLAlchemy** for database interaction
 - **Bokeh** for interactive visualization
-- **pytest** for unit testing
+- **pytest**  for unit testing
 - **Git** + **GitHub** for version control
+
+---
+
+### 🧠 Core Workflow
+
+1. **Data Load**  
+   Load 3 CSVs into an SQLite database.
+
+2. **Function Selection**  
+   Use least squares error to select best matching ideal function for each training function.
+
+3. **Test Matching**  
+   Match each test point to ideal function within threshold (√2 × max training deviation).
+
+4. **Visualization**  
+   Show training vs ideal functions and matched test points using Bokeh.
 
 ---
 
@@ -78,9 +95,25 @@ DLMDSPWP01_Assignment/
 
 ---
 
-### ✅ Features Implemented
+### ✅ Unit Testing
 
-<pre>
+Run all tests using:
+
+```bash
+python3 -m unittest discover tests/
+```
+
+---
+
+### 🔐 Git Workflow Practiced
+
+- Feature branching (`feature/...`)
+- Pull requests, merges, clean commit history
+- `.gitignore` included for Python best practices
+
+---
+
+### Features Implemented
 🗂️ SQLite DB creation and multi-table storage
 📉 Ideal function selection via least squares error minimization
 📊 Visual mapping of training vs. ideal vs. test data
@@ -89,23 +122,18 @@ DLMDSPWP01_Assignment/
 🧪 Unit test-ready structure
 💡 Well-commented code and docstrings
 🔁 Real-world Git workflow with pull request and branch management
-</pre>
 
 ---
 
-### 🧠 What I Learned
-“This project gave me hands-on experience with data approximation, modular Python coding, version control, and collaborative Git workflows. It strengthened my problem-solving mindset and helped me understand how theory translates into practical solutions.”
+### What I Learned
+This project gave me hands-on experience with data approximation, modular Python coding, version control, and collaborative Git workflows. It strengthened my problem-solving mindset and helped me understand how theory translates into practical solutions.
 
 ---
 
-### 📜 License
+### License
 This project is submitted as part of the IU assignment DLMDSPWP01 and is not intended for commercial use.
 
 ---
 
-### Installation
-
-To install all dependencies required for this project:
-
-```bash
-pip install -r requirements.txt
+### Note
+The requirements.txt file is kept minimal and includes only the direct dependencies used in this project. No unnecessary packages or transitive dependencies are listed.
