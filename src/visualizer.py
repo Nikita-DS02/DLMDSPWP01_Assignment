@@ -1,4 +1,4 @@
-# src/visulaizer.py
+# src/visualizer.py
 
 import pandas as pd
 import sqlite3

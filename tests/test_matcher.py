@@ -27,7 +27,7 @@ class TestMatcherModule(unittest.TestCase):
         self.deviation_dict = {'y1': 0.5}
 
     def _create_mock_database(self):
-        """Initializes mock test_data and ideal_data tables with minimal records."""
+        """Initializes mock test_data and ideal_data tables with minimal records."""    
         conn = sqlite3.connect(self.db_path)
 
         conn.execute("""

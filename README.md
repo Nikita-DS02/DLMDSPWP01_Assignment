@@ -40,7 +40,6 @@ DLMDSPWP01_Assignment/
 └── README.md                  # Project overview and setup
 </pre>
 
-
 ---
 
 ### 📌 Technologies Used
@@ -49,12 +48,12 @@ DLMDSPWP01_Assignment/
 - **pandas** for data manipulation
 - **SQLAlchemy** for database interaction
 - **Bokeh** for interactive visualization
-- **pytest** for unit testing
+- **pytest**  for unit testing
 - **Git** + **GitHub** for version control
 
 ---
 
-## 🧠 Core Workflow
+### 🧠 Core Workflow
 
 1. **Data Load**  
    Load 3 CSVs into an SQLite database.
@@ -96,26 +95,25 @@ DLMDSPWP01_Assignment/
 
 ---
 
-## ✅ Unit Testing
+### ✅ Unit Testing
 
 Run all tests using:
 
 ```bash
 python3 -m unittest discover tests/
+```
 
 ---
 
-## 📈 Output
+### 🔐 Git Workflow Practiced
 
-- A `results_visualization.html` file with overlaid plots
-- Console output for:
-  - Best ideal functions per training function
-  - First 5 test matches (x, y, ideal match, deviation)
+- Feature branching (`feature/...`)
+- Pull requests, merges, clean commit history
+- `.gitignore` included for Python best practices
 
 ---
 
-### ✅ Features Implemented
-
+### ⚙️ Features Implemented
 <pre>
 🗂️ SQLite DB creation and multi-table storage
 📉 Ideal function selection via least squares error minimization
@@ -126,28 +124,17 @@ python3 -m unittest discover tests/
 💡 Well-commented code and docstrings
 🔁 Real-world Git workflow with pull request and branch management
 </pre>
+---
+
+### 📝 What I Learned
+This project gave me hands-on experience with data approximation, modular Python coding, version control, and collaborative Git workflows. It strengthened my problem-solving mindset and helped me understand how theory translates into practical solutions.
 
 ---
 
-## 🔐 Git Workflow Practiced
-
-- Feature branching (`feature/...`)
-- Pull requests, merges, clean commit history
-- `.gitignore` included for Python best practices
-
----
-
-### 🧠 What I Learned
-“This project gave me hands-on experience with data approximation, modular Python coding, version control, and collaborative Git workflows. It strengthened my problem-solving mindset and helped me understand how theory translates into practical solutions.”
-
----
-
-### 📜 License
+### 📋 License
 This project is submitted as part of the IU assignment DLMDSPWP01 and is not intended for commercial use.
 
 ---
 
-### Note
+### 🟢 Note
 The requirements.txt file is kept minimal and includes only the direct dependencies used in this project. No unnecessary packages or transitive dependencies are listed.
-
----
