@@ -113,7 +113,8 @@ python3 -m unittest discover tests/
 
 ---
 
-### Features Implemented
+### ⚙️ Features Implemented
+<pre>
 🗂️ SQLite DB creation and multi-table storage
 📉 Ideal function selection via least squares error minimization
 📊 Visual mapping of training vs. ideal vs. test data
@@ -122,18 +123,18 @@ python3 -m unittest discover tests/
 🧪 Unit test-ready structure
 💡 Well-commented code and docstrings
 🔁 Real-world Git workflow with pull request and branch management
-
+</pre>
 ---
 
-### What I Learned
+### 📝 What I Learned
 This project gave me hands-on experience with data approximation, modular Python coding, version control, and collaborative Git workflows. It strengthened my problem-solving mindset and helped me understand how theory translates into practical solutions.
 
 ---
 
-### License
+### 📋 License
 This project is submitted as part of the IU assignment DLMDSPWP01 and is not intended for commercial use.
 
 ---
 
-### Note
+### 🟢 Note
 The requirements.txt file is kept minimal and includes only the direct dependencies used in this project. No unnecessary packages or transitive dependencies are listed.
