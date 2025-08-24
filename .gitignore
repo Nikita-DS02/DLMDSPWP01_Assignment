@@ -6,10 +6,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# SQLite DB (optional to ignore)
+# SQLite DB 
 project_data.db
 
-# Bokeh output (optional to ignore)
+# Bokeh output 
 results_visualization.html
 
 # Mac system files

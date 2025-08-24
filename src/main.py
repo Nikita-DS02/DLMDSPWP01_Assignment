@@ -31,7 +31,7 @@ def main():
     # Step 4: Visualize
     generate_visuals(best_matches, matched_points)
 
-    # Optional print to check Git feature branch
+    # print to check Git feature branch
     print("Testing Git feature branch workflow")
 
 if __name__ == "__main__":
